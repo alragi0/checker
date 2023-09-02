@@ -268,7 +268,7 @@ checkrole($chatId,$message_id,$keyboard,$nopre,$gId);
 sendaction($chatId, typing);
 $lista = substr($message, 5);
 $check = strlen($lista);
-$check1 = strlen($lista, 0,7);
+$check1 = strlen($lista,);
 $chem = substr($lista, 0,1);
 if(empty($lista)){
 reply_to($chatId, $message_id,$keyboard,$validauth);
